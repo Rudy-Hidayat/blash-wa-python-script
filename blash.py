@@ -67,33 +67,14 @@ def send_whatsapp_message_with_pdf(phone_numbers, message, file_path):
 
 # Daftar nomor yang akan dikirim pesan dan lampiran
 phone_numbers = [
-"6281264694069", # Pak Dekan
-"6281360208371", # Pak Nasrullah WD1 FMIPA
-"6281360291500", # Pak Subianto Informatika
-"628126999123", # Pak Wira Dharma WD3 FMIPA
-"6281269971984", # Pak Husaini Kabag AU
-"6282295965911", # Pak Tedy Kadept Farmasi
-"6281320454852", # Ibu Hilda Koord S1 Farmasi
-"628126957024", # Pak Nizam Kadept Informatika
-"6285370984854", # Pak Alim Koord S1 Informatika
-"6282364280950", # Pak Mahyus Koord D3MI
-"6282277864975", # Pak Saumi Kadept Fisika
-"6281263289103", # Pak Mukhsin ??
-"6282126424660", # Ibu Elin Koord D3TE
-"6285260272003", # Ibu Lenni Fitri Kadept Biologi
-"6281262131992", # Buk Essy Kaprodi S2 Biologi
-"6282367095574", # Ibu Lili Kadept Statistika
-"6285297492376", # Pak Khairi Kadept Kimia
-"6281264350811", # Ibu Surya Koord S2 Kimia
-"628116803700", # Ibu Intan Syahrini Kadept Matematika
-"6281802727170" # Pak Mahmudi Koord S1 Matematika
+"6288888xxxxx",  #Sesuaikan nomornya
 ]
 
 # Kirim pesan dan lampiran
 send_whatsapp_message_with_pdf(
     phone_numbers, 
-    "Assalamualaikum Wr. Wb.,%0A%0ABapak/Ibu Pimpinan FMIPA USK, berikut kami lampirkan Undangan Rapat Pimpinan, dengan detail:%0A%0AHari/tanggal : Rabu, 12 Februari 2025%0APukul:  14.00 s.d 16.00 WIB%0ATempat: Ruang Senat FMIPA USK.",
-    r"C:\Users\teuku\Downloads\Undangan Rapim - Rabu 12 Februari 2025.pdf"
+    "Assalamualaikum Wr. Wb.,%0A%0ABapak/Ibu Pimpinan  , berikut kami lampirkan Undangan  , dengan detail:%0A%0AHari/tanggal : Rabu, 12 Februari 2025%0APukul:  14.00 s.d 16.00 WIB%0ATempat: Ruangx.",
+    r"C:\Users\Downloads\Undangan.pdf"
 )
 
 
